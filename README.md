@@ -6,7 +6,7 @@ Are you looking for a simple and efficient way to open file dialogues in C++ wit
 Before getting started, make sure that you have **g++** installed on your system. If it's not already installed, you can download it from the official website or install it using a package manager.
 
 ## Getting Started
-Once you have **g++** installed on your system, navigate to the directory where you've saved the `get_input_from_CSV_file.cpp` file and run the following command to convert the code into an executable file:
+Once you have **g++** installed on your system, navigate to the directory where you've saved the `main.cpp` file and run the following command to convert the code into an executable file:
 
 ```sh
-g++ get_input_from_CSV_file.cpp -o get_input_from_CSV_file.exe -lcomdlg32
+g++ main.cpp -o main.exe -lcomdlg32
