@@ -10,3 +10,14 @@ Once you have **g++** installed on your system, navigate to the directory where 
 
 ```sh
 g++ main.cpp -o main.exe -lcomdlg32
+
+```
+
+This will generate an executable file that you can run on your system.
+
+## Using the Program
+To use our code, simply execute the generated executable file. Pressing 1 will open a file dialogue window that lets you choose your input file. The selected file path will be printed on the screen for your convenience. If you're unsure what to do next, pressing any key other than 1 will remind you to press 1 to browse.
+
+## Benefits
+By eliminating the need for complicated Graphical User Interfaces, our code simplifies the process of managing files and reduces the risk of errors. We hope that this code proves to be a valuable tool in streamlining your file management tasks and minimizing your workload.
+
