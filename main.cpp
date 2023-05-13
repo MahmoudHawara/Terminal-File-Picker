@@ -23,6 +23,7 @@ int main() {
     ofn.nMaxFileTitle = 0;                              // Set maximum length of file title (not used in this case)
     ofn.lpstrInitialDir = NULL;                         // Set initial directory (not used in this case)
     ofn.Flags = OFN_PATHMUSTEXIST | OFN_FILEMUSTEXIST;  // Set options for file selection
+    szFile[0] = '\0';
 
     cout << "\t\t********************************** press 1 to browse **********************************\n\n\n";
 
